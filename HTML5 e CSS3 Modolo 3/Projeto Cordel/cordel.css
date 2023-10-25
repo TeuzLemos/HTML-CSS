@@ -92,5 +92,21 @@
     margin: 30px;
    }
 
+   footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+   }
+
+   footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+   }
+
+   footer a:hover {
+    text-decoration: underline;
+   }
+
 
     

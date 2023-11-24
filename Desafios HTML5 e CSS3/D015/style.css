@@ -29,3 +29,24 @@ body{
 
     transform: translate(-50%, -50%);
 }
+
+iframe {
+    display: block;
+    background-size: 40vh 75vh;
+    height: 57vh;
+    width: 34.5vh;
+
+    position: absolute;
+    left: 50.1%;
+    top: 50.2%;
+
+    transform: translate(-50%, -50%);
+
+}
+
+img{
+    width: 5vh;
+    border-radius: 100%;
+    box-shadow: 1px 1px 1px black;
+    
+}

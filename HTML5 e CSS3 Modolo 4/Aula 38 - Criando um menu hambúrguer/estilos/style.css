@@ -6,14 +6,6 @@
     padding: 0px;
 }
 
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
-}
-
 body, html {
     background-color: lightgrey;
 }
@@ -27,22 +19,8 @@ header > h1 {
     text-align: center;
 }
 
-i#burguer {
-    background-color: rgb(48, 48, 48);
-    color: white;
-    display: block;
-    text-align: center;
-    padding: 10px;
-    cursor: pointer;
-}
-
-i#burguer:hover {
-    background-color: white;
-    color: black;
-    transition: 0.5s;
-}
 menu{
-    display: none;
+    display: block;
 }
 
 menu > ul {

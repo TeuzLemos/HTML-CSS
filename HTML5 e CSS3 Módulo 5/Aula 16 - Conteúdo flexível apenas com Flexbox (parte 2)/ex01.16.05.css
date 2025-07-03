@@ -25,5 +25,20 @@ header, section.normal {
 
 section.flex-content {
     padding: 20px;
-    background-color: lightgray;
+    background-color: rgb(180, 180, 180);
+
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+section > article {
+    border: 2px dashed green;
+}
+
+article.text-media {
+    display: flex;
+}
+
+article.media-text {
+    display: flex;
 }

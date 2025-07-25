@@ -63,5 +63,5 @@ div.media > img {
 div.media > iframe {
     display: block;
     margin: auto;
-    padding: 0px 20px;
+    width: 90%;
 }

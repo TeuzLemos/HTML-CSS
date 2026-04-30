@@ -8,24 +8,29 @@
 .item-topo {
     background-color: red;
     grid-area: 1 / 1 / 1 / 6;
+    text-align: center;
 }
 
 .item-menu {
     background-color: blue;
     grid-area: 2 / 1 / 2 / 6;
+    text-align: center;
 }
 
 .item-principal {
     background-color: blueviolet;
     grid-area: 3 / 1 / 5 /4;
+    text-align: center;
 }
 
 .item-secundario {
     background-color: yellow;
     grid-area: 3 / 4 / 5 /6;
+    text-align: center;
 }
 
 .item-rodape {
     background-color: darkgreen;
     grid-area: 5 / 1 / 5 / 6;
+    text-align: center;
 }

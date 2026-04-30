@@ -1,0 +1,31 @@
+.container {
+    display: grid;
+    grid-template-rows: repeat(5, 100px);
+    grid-template-columns: repeat(5, 100px);
+    gap: 2px;
+}
+
+.item-topo {
+    background-color: red;
+    grid-area: 1 / 1 / 1 / 6;
+}
+
+.item-menu {
+    background-color: blue;
+    grid-area: 2 / 1 / 2 / 6;
+}
+
+.item-principal {
+    background-color: blueviolet;
+    grid-area: 3 / 1 / 5 /4;
+}
+
+.item-secundario {
+    background-color: yellow;
+    grid-area: 3 / 4 / 5 /6;
+}
+
+.item-rodape {
+    background-color: darkgreen;
+    grid-area: 5 / 1 / 5 / 6;
+}
